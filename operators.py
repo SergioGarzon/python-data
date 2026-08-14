@@ -25,5 +25,10 @@ print("Quotient integer= " + str(quotient_variable_int))
 module_variable = variable_one % variable_two
 print("Module= " + str(module_variable))
 
+# Potency
+potency_variable = variable_one ** variable_two
+print("Potency= " + str(potency_variable))
+
+
 
 
