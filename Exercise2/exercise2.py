@@ -12,7 +12,11 @@
 # • Cantidad de días con temperatura menor al promedio
 
 lista_temperaturas = []
-temperatura = 0
+temperatura = cant_dias_temp_bajo_cero = sumatoria_temperaturas = sumatoria_temperatura_dias_calidos = 0
+cantidad_temperatura_dias_calidos = cantidad_temperatura_dias_calidos = promedio_temperatura_dias_calidos = 0
+promedio_temperaturas = cant_dias_menor_promedio = mayor_temperatura_dias_no_calidos = 0
+dia_40_grados = "NO"
+
 
 while temperatura < 50:
     print("\nSe solicita ingreso de temperatura -20° y 49°, \nsi ingresa 50° finaliza la carga de datos")
@@ -25,18 +29,8 @@ while temperatura < 50:
 else:
     print("Como ha ingresado un valor numerico mayor o igual a 50, se ha finalizado la carga de temperaturas")
         
-cant_dias_temp_bajo_cero = 0
-sumatoria_temperaturas = 0
-sumatoria_temperatura_dias_calidos = 0
-cantidad_temperatura_dias_calidos = 0
-promedio_temperatura_dias_calidos = 0
-promedio_temperaturas = 0
-cant_dias_menor_promedio = 0
-mayor_temperatura_dias_no_calidos = 0
-dia_40_grados = "NO"
-        
-if len(lista_temperaturas) > 0:
-    
+       
+if len(lista_temperaturas) > 0:    
     
     if lista_temperaturas[0] < 20:
         mayor_temperatura_dias_no_calidos = lista_temperaturas[0]
