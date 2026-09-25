@@ -1,0 +1,7 @@
+hola
+este es
+un archivo
+de texto
+y estoy
+seguro de que 
+funciona todo
