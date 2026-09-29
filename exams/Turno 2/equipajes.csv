@@ -1,0 +1,41 @@
+tipo,codigo,propietario,destino,peso,tarifa_base
+1,8001,Persona 01,Cordoba,3,5000
+2,8002,Persona 02,Mendoza,8,5700
+1,8003,Persona 03,Salta,13,6400
+2,8004,Persona 04,Rosario,18,7100
+1,8005,Persona 05,Buenos Aires,23,7800
+2,8006,Persona 06,Tucuman,4,8500
+1,8007,Persona 07,Cordoba,9,5000
+2,8008,Persona 08,Mendoza,14,5700
+1,8009,Persona 09,Salta,19,6400
+2,8010,Persona 10,Rosario,24,7100
+1,8011,Persona 11,Buenos Aires,5,7800
+2,8012,Persona 12,Tucuman,10,8500
+1,8013,Persona 13,Cordoba,15,5000
+2,8014,Persona 14,Mendoza,20,5700
+1,8015,Persona 15,Salta,25,6400
+2,8016,Persona 16,Rosario,6,7100
+1,8017,Persona 17,Buenos Aires,11,7800
+2,8018,Persona 18,Tucuman,16,8500
+1,8019,Persona 19,Cordoba,21,5000
+2,8020,Persona 20,Mendoza,26,5700
+1,8021,Persona 21,Salta,7,6400
+2,8022,Persona 22,Rosario,12,7100
+1,8023,Persona 23,Buenos Aires,17,7800
+2,8024,Persona 24,Tucuman,22,8500
+1,8025,Persona 25,Cordoba,3,5000
+2,8026,Persona 26,Mendoza,8,5700
+1,8027,Persona 27,Salta,13,6400
+2,8028,Persona 28,Rosario,18,7100
+1,8029,Persona 29,Buenos Aires,23,7800
+2,8030,Persona 30,Tucuman,4,8500
+1,8031,Persona 31,Cordoba,9,5000
+2,8032,Persona 32,Mendoza,14,5700
+1,8033,Persona 33,Salta,19,6400
+2,8034,Persona 34,Rosario,24,7100
+1,8035,Persona 35,Buenos Aires,5,7800
+2,8036,Persona 36,Tucuman,10,8500
+1,8037,Persona 37,Cordoba,15,5000
+2,8038,Persona 38,Mendoza,20,5700
+1,8039,Persona 39,Salta,25,6400
+2,8040,Persona 40,Rosario,6,7100
