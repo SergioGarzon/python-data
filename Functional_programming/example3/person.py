@@ -25,5 +25,17 @@ class Persona:
     def dni(self, dni_nuevo):
         self._dni = dni_nuevo
     
+    @nombre.setter    
+    def nombre(self, nombre_nuevo):
+        self._nombre = nombre_nuevo
+    
+    @apellido.setter
+    def apellido(self, apellido_nuevo):
+        self._apellido = apellido_nuevo
+        
+    def __str__(self):
+        return f"Dni: {self.dni}, nombre: {self.nombre}, apellido: {self.apellido}"
+    
+    
     
     
