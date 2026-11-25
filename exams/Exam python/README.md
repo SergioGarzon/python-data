@@ -14,7 +14,7 @@ Existen dos tipos de equipaje:
 - **Equipaje Común**: importe final igual a la tarifa base
 - **Equipaje Especial**: mismo importe que el equipaje común con un recargo de $1.500 por kg transportado
 
-El programa deberá leer los datos desde equipajes.csv y crear los objetos correspondientes.
+El programa deberá leer los datos desde *equipajes.csv* y crear los objetos correspondientes.
 
 Se deberá desarrollar lo necesario para:
 
