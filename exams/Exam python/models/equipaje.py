@@ -1,17 +1,9 @@
-'''
-codigo de identificación del equipaje
-propietario del equipaje
-destino al cual debe llegar el equipaje
-peso del equipaje
-tarifa base del equipaje
-'''
-
 from abc import ABC, abstractmethod
 
-class Equipaje:
+class Equipaje(ABC):
     
-    # Declaración de atributos pero no es necesaria
-    
+    # Declaración de atributos pero no es necesaria    
+
     _codigo_identificacion = None
     _propietario = None
     _destino = None
@@ -71,7 +63,7 @@ class Equipaje:
         self._tarifa_base = tarifa_base
         
     @abstractmethod
-    def importe_final(self):
+    def importe(self):
         pass
         
     # toString

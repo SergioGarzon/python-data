@@ -4,9 +4,7 @@
 from models.equipaje import Equipaje
 
 class EquipajeEspecial(Equipaje):
-    
-    importe_final = None
-    
+        
     # Constructor
     
     def __init__(self, codigo_identificacion, propietario, destino, peso, tarifa_base):
@@ -15,17 +13,20 @@ class EquipajeEspecial(Equipaje):
     # Calculamos el importe final
     
     def importe(self):
-        if(int(super().peso()) > 0):
-            importe_final = super().tarifa_base() + (super().peso * 1500)
+        
+        importe_final = 0.0
+        
+        if int(self.peso) > 0:
+            importe_final = float(self.tarifa_base) + (int(self.peso) * 1500)
         else:
-            importe_final = super().tarifa_base()
-    
+            importe_final = float(self.tarifa_base)
+                
         return importe_final
             
     # toString
         
     def __str__(self):
-        return super().__str__()
+        return "Equipaje especial ( " + super().__str__() + " ) "
             
     
         

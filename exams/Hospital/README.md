@@ -1,6 +1,7 @@
 # Exámen tipo parcial
 
 ## Hospital
+
 Un hospital de nuestra ciudad necesita conocer cierta información respecto a los importes cobrados por las distintas atenciones que realiza,y requiere de un sistema orientado a objetos que le dé soporte a ello. Los datos relevantes son los siguientes:
 
 Del Hospital sólo interesa registrar la razón social; y una colección con todas las atenciones realizadas.
@@ -24,8 +25,8 @@ Con lo expuesto anteriormente, usted deberá implementar:
 Todas las clases del modelo presentado.
 
 Los siguientes requerimientos de métodos:
-- Para las clases Atención, Médica, Farmacia y Paciente implementar su constructor, acceso y modificación y toString.
-- Para la clase Hospital implementar el método addAtención que agrega una atención a la colección.
+- Para las clases Atención, Médica, Farmacia y Paciente implementar su constructor, acceso y modificación y toString.   (Listo)
+- Para la clase Hospital implementar el método addAtención que agrega una atención a la colección.   (Listo)
 - Definir e implementar los métodos importeACobrar de las atenciones, que calcule y devuelva el importe a cobrar por la atención de acuerdo a los criterios anteriormente especificados.
 - En clase Hospital se requiere la implementación de los siguientes métodos:
   - importe_total_atencion_consulta: debe calcular la suma de los importes de las consultas de las atenciones médicas.

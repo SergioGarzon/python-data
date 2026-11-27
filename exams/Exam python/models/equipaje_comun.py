@@ -14,11 +14,11 @@ class EquipajeComun(Equipaje):
     # Calculamos el importe final
         
     def importe(self):
-        return super().tarifa_base()
+        return float(self.tarifa_base)
         
     # toString
     
     def __str__(self):
-        return super().__str__()
+        return "Equipaje comun ( " + super().__str__() + " )"
         
     
