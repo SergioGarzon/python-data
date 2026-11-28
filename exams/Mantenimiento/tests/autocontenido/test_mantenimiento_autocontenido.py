@@ -161,6 +161,8 @@ class TestPreventivo:
         assert "1500.00" in cadena
 
 
+
+
 # ---------------------------------------------------------------------------
 # Correctivo: constructor, acceso, modificacion y toString
 # ---------------------------------------------------------------------------
@@ -335,6 +337,9 @@ class TestCargaCsv:
 
         with pytest.raises(ValueError):
             main.crear_mantenimiento(fila)
+
+
+
 
 
 # ---------------------------------------------------------------------------

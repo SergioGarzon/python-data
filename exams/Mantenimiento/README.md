@@ -15,6 +15,7 @@ Se necesita un programa que lea del archivo mantenimientos.csv la lista de todos
 * Suma de gastos: que informe el total abonado por todo concepto en todos los mantenimientos registrados.
 * Cantidad de mantenimientos caros: que informe el total de mantenimientos de cualquier tipo que hayan tenido un gasto total de más de $10.000
 * Rotura más larga: que informe la fecha y el nombre del operario del mantenimiento correctivo de mayor duración.
+
 La función principal debe ingresar los datos desde el archivo de texto y finalizar luego de imprimir el resultado de la ejecución de los tres métodos anteriores.  
 
 El archivo posee la siguiente estructura:  

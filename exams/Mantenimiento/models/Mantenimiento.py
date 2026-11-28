@@ -1,8 +1,10 @@
 # Cada vez que se le realiza un mantenimiento se registra el nombre 
 # del operario que lo realiza, la fecha en que se efectuó y el importe 
-# que se gastó en repuestos.  
+# que se gastó en repuestos.
 
-class Mantenimiento:
+from abc import ABC, abstractmethod
+
+class Mantenimiento(ABC):
     
     _operario = None
     _fecha = None
@@ -42,6 +44,12 @@ class Mantenimiento:
     @importe_repuestos.setter
     def importe_repuestos(self, importe_repuestos):
         self._importe_repuestos = importe_repuestos
+        
+    
+    # Metodo abstracto para calcular el gasto total
+    @abstractmethod
+    def gasto_total(self):
+        pass        
     
     # toString
     
